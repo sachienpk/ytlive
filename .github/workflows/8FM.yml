@@ -48,10 +48,4 @@ jobs:
         run: |
           git add -A
           ls -la 
-          
-      - name: commit & push
-        run: |
-          git commit -m "Link updated"
-          git push
-          
-          
+
